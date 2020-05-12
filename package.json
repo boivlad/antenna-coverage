@@ -1,0 +1,25 @@
+{
+  "name": "antenna-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boivlad/antenna-coverage.git"
+  },
+  "author": "Vladyslav Boichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boivlad/antenna-coverage/issues"
+  },
+  "homepage": "https://github.com/boivlad/antenna-coverage#readme",
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  }
+}
